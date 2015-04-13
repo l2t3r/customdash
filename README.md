@@ -2,6 +2,7 @@ My custom dashboard calling elasticsearch and updating the last enetered data
 
 Also monitoring github repo stats
 
+![Alt text](https://github.com/l2t3r/customdash/blob/master/customdash.png "CustomDash")
 
 Requirements
 
@@ -43,4 +44,3 @@ https://github.com/Shopify/dashing/wiki/Additional-Widgets
 
 After modifing to your requiremnet you can start dashing by issuing command "dashing start"
 
-![Alt text](https://github.com/l2t3r/customdash/blob/master/customdash.png "CustomDash")
