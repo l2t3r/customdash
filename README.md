@@ -1,4 +1,4 @@
-My custom dashboard calling elasticsearch and updating the last enetered data 
+My custom dashboard calling elasticsearch and updating the last recorded status update from Jenkins 
 
 Also monitoring github repo stats
 
