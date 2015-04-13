@@ -25,12 +25,12 @@ Installing on Amazon linux or redhat variants
 6. run bundle install
 
 Modify the widgets and layouts to your liking  : -
-  Assets — All your images, fonts, and js/coffeescript libraries. Uses Sprockets
-  Dashboards — One .erb file for each dashboard that contains the layout for the widgets.
-  Jobs — Your ruby jobs for fetching data (e.g for calling third party APIs like twitter).
-  Lib — Optional ruby files to help out your jobs.
-  Public — Static files that you want to serve. A good place for a favicon or a custom 404 page.
-  Widgets — All the html/css/coffee for individual widgets.
+  - Assets — All your images, fonts, and js/coffeescript libraries. Uses Sprockets
+  - 2Dashboards — One .erb file for each dashboard that contains the layout for the widgets.
+  - Jobs — Your ruby jobs for fetching data (e.g for calling third party APIs like twitter).
+  - Lib — Optional ruby files to help out your jobs.
+  - Public — Static files that you want to serve. A good place for a favicon or a custom 404 page.
+  - Widgets — All the html/css/coffee for individual widgets.
 
 I have my own job that connects to elasticsearch and gets the results I want.
 2 additional libaries need to be added in ruby
