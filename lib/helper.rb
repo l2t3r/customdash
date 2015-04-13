@@ -3,7 +3,7 @@ require 'json'
 require 'hashie'
 
     def get_build_value(type, bglenv)
-	es_url = "http://es.int.spark.test.bglcorp.com.au:9200"
+	es_url = "http://es.int.test.com.au:9200"
 	client = Elasticsearch::Client.new url: es_url
 	response = client.search index: 'builds', type: type,  body: { 
 							   query: { match: { env: bglenv } },
